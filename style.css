@@ -41,3 +41,11 @@ span{
   background: #000; 
   cursor: pointer; 
 }
+
+var x = 20;
+var s = function (){
+    console.log(x);
+    var x = 28;
+}
+
+s();
